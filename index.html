@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Zomato</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar__brand">
+                <img src="./assets/logo.png" alt="logo" class="brand__logo" /> 
+            </div>
+            <div class="navbar__nav__items">
+                <div class="nav__items"></div>
+                <button class="primary__button">Order Now</button>
+
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="hero__container">
+            <div class="hero__image__container">
+                <img src="./assets/hero.jpg" alt="hero" class="hero__image">
+                <img src="./assets/svg/heroShape.svg" alt="hero image shape" class="hero__image__shape">
+                <img src="./assets/svg/herobgpattren.svg" alt="hero image pattern" class="hero__image__pattern">
+            </div>
+            <div class="hero__description">
+                <h1 class="text__heading">Order food from your favourite restaurants</h1>
+                <button class="primary__button">Order Now</button>
+            </div>
+        </section>
+        <section class="video__footage__container">
+            <div class="video__footage"><iframe class="chef__video" src="https://player.vimeo.com/video/332705399" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video__text"> <p>Your food will be prepared safely with an experienced chef, without compromising on the quality and hygiene </p></div>
+        </section>
+        <section class="food__list__container">
+            <h1 class="text__heading" style="text-align: center;">Explore our menu</h1>
+            <div class="food__list__container__diagonal">
+
+            </div>
+            <div class="food__menu__card__list">
+                <div class="food__menu__card">
+                    <!-- Card 1 -->
+                    <img src="./assets/burger.jpg" alt="burger image" class="food__menu__card__image">
+                    <div class="food__menu__card__description">
+                    <h4 class="food__menu__card__title">Burgers</h4>
+                    <p class="food__menu__card__restaurants">Burger King, Mcdonalds, Burger Place <span style="color:red;">+3</span></p>
+                    </div>
+                </div>
+                <div class="food__menu__card">
+                    <!-- card 2 -->
+                    <img src="./assets/pizza.jpg" alt="pizza image" class="food__menu__card__image">
+                    <div class="food__menu__card__description">
+                    <h4 class="food__menu__card__title">Pizza</h4>
+                    <p class="food__menu__card__restaurants">Pizza Hut, Domino's Pizza <span style="color:red;">+3</span></p>
+                    </div>
+                </div>
+                <div class="food__menu__card">
+                    <!-- card 3 -->
+                    <img src="./assets/iceCream.jpg" alt="icecream image" class="food__menu__card__image">
+                    <div class="food__menu__card__description">
+                    <h4 class="food__menu__card__title">Icecream</h4>
+                    <p class="food__menu__card__restaurants">Baskin Robins, Ibaco , Amul <span style="color:red;">+3</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="restaurant__list__container">
+          <div class="restaurant__list__text">
+              <h1 class="text__heading">Order From 100s of restaurants</h1>
+          </div> 
+          <div class="restaurant__list__image__container">
+              <div class="restaurant__list__row1">
+                  <img src="./assets/restaurant1.jpg" alt="restaurant1" class="restaurant1">
+                  <img src="./assets/restaurant2.jpg" alt="restaurant2" class="restaurant2">
+              </div>
+              <div class="restaurant__list__row2">
+                <img src="./assets/restaurant3.jpg" alt="restaurant3" class="restaurant3">
+                <img src="./assets/restaurant4.jpg" alt="restaurant4" class="restaurant4">
+              </div>
+          </div>
+          <div class="food__list__view__more">View more</div>
+        </section>
+        <section class="email__container">
+            <div>
+                <h1 class="email__text">Stay Updated</h1>
+            </div>
+            <div class="email__update">
+            <div class="email__input">
+                <input type="email" placeholder="youremail@gmail.com">
+            </div>
+            <button class="email__button">Get Updates</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
